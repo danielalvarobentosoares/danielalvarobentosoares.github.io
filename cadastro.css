@@ -1,0 +1,30 @@
+.form-table tr: {
+    height: 45px;
+}
+
+.form-table td: {
+    width: 250px;
+}
+
+.text-block {
+    font-family: Georgia;
+    font-size: 14px;
+    color: #778899; <!-- LightSlateGray -->
+}
+
+.text-box {
+    height: 30px;
+    font-size: 14px;
+    color: #F5F5DC; <!-- beije -->
+}
+
+.button {
+    position: relative;
+    bottom: 140px;
+    left: 265px;
+    height: 35px;
+    width: 70px;
+    border: 1px solid #F0FFFF; <!-- azure -->
+    cursor: hand;
+    color: #F5F5DC; <!-- beije -->
+}
