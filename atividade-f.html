@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projeto 5 - 02</title>
+  <link rel="stylesheet" type="text/css" href="cadastro.css">
+</head>
+<body>
+    <table class="form-table">
+            <tr>
+            <td>
+                <span class="text-block">Matrícula:</span>
+            </td>
+            <td>
+                <input type="text" class="text-box" name="txtMatricula" id="txtMatricula">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="text-block">Nome:</span>
+            </td>
+            <td>
+                <input type="text" class="text-box" name="txtNome" id="txtNome">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="text-block">Email:</span>
+            </td>
+            <td>
+                <input type="text" class="text-box" name="txtEmail" id="txtEmail">
+            </td>
+        </tr>
+    </table>
+  <br>
+    <button class="button" onclick="exibirAluno()">Exibir</button><br>
+    <button class="button">Atualizar</button><br>
+    <button class="button">Excluir</button><br>
+    <button class="button">Voltar</button>
+  
+   <script>
+        function exibirAluno() {
+            var matricula = document.getElementById("txtMatricula").value;
+            var nome = document.getElementById("txtNome").value;
+            var email = document.getElementById("txtEmail").value;
+
+            alert("Matrícula: " + matricula + "\nNome: " + nome + "\nEmail: " + email);
+        }
+    </script>
+</body>
+</html>
