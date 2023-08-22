@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="estilo-tres.css">
+</head>
+<body>
+    <form>
+        <div class="center">
+            <h1>Survey Form</h1>
+        </div>
+        <p>
+            Let us kanow we can improve freeCodCamp
+        </p>
+        
+        * Name: &nbsp <input type="text" class="name" name="name" placeholder="Enter your name"><br><br>
+        * E-mail: &nbsp <input type="email" class="email" name="email" placeholder="Enter your e-mail"><br><br>
+        * Age: &nbsp <input type="number" class="idade" name="idade" placeholder="Age"><br><br>
+        
+        Which option best describs your current role?
+        <select name="selecao">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+        </select><br><br>
+        
+        * How likely is that you would recommend freeCodCamp to a friend?<br>
+        <input type="radio" name="opcao1" value="definitely">Definitely<br>
+        <input type="radio" name="opcao2" value="maybe">Maybe<br>
+        <input type="radio" name="opcao3" value="not-sure">Not sure<br><br>
+        
+        What do you like most in FCC: 
+        <select name="opcoes">
+            <option value="select an option">Select an option</option>
+            <option value="option">Option</option>
+        </select><br><br>
+        
+        Things that should be improved in the future (Check all that apply):<br>
+        <input type="checkbox" name="valor1" value="front">Front-end Projects<br>
+        <input type="checkbox" name="valor2" value="back">Back-end Projects<br>
+        <input type="checkbox" name="valor3" value="data">Data Visualization<br>
+    </form>
+  </body>
+  </html>
