@@ -1,0 +1,37 @@
+body {
+    font-family: Cursive;
+}
+.table-pri {
+    display: table;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center; 
+   
+}
+.table {
+    display: table-row;
+}
+.td {
+    display: table-cell;
+    border-style: dotted none;
+    border-color: #DCDCDC;
+    padding: 10px;
+}
+#linha1 {
+    background-color: #ADD8E6;
+    border-style: solid none solid none;
+    border-color: #4682B4;
+    font-weight: bold;
+}
+#clube {
+    text-align: left;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    right: 40px;
+    top: 8px;
+}
