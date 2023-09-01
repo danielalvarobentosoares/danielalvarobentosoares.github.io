@@ -1,29 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #483D8B;
-    margin: 0;
-    padding: 0;
-  }
-
-  .grid-projetos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-  }
-
-  .proj {
-    border: 1px ridge #ccc;
-    padding: 20px;
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-
-  p {
-    font-size: 1rem;
-    color: #666;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #778899;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.column {
+  width: calc(35% - 20px);
+  margin-bottom: 20px;
+  width: 350px;
+  padding: 20px;
+  border: 1px ridge #ddd;
+  background-color: #BDB76B;
+}
+.project-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.project-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.project-link {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+.project-link:hover {
+  text-decoration: underline;
+}
