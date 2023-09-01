@@ -1,36 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #A9A9A9;
-  }
-  .descricao {
-    border: 1px ridge #ddd;
-    background-color: #ccc;
-    padding: 10px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  .sobre-mim {
-    border: 1px ridge #ddd;
-    background-color: #ccc;
-    padding: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  .experiencia {
-    border: 1px ridge #ddd;
-    background-color: #ccc;
-    padding: 10px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  .exp-cen {
-    text-align: center;
-  }
-  h1 {
-    color: #666;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  p {
-    margin: 5px 0;
-  }
+    margin-left: 10%;
+}
+.links, a {
+    margin: 5px;
+    color: #000000;
+}
+.titulo {
+    text-decoration: underline;
+    position: relative;
+    left: 20%;
+}
+.texto {
+    display: flex;
+    margin-left: 12rem;
+    position: relative; 
+    bottom: 3.2rem;
+}
+.texto-2 {
+    display: flex;
+    margin-left: 20rem;
+    position: relative; 
+    bottom: 3.2rem;
+}
+    
+  
+  
