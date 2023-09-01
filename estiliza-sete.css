@@ -51,6 +51,9 @@ h1 a {
     max-width: 800px;
     padding: 0 10px;
 }
+.content p {
+  color: #F5DEB3;
+}
 footer {
     background-color: #FFFFFF;
     color: #fff;
