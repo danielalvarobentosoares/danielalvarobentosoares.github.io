@@ -1,46 +1,79 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #4169E1;
+    font-family: Cursive, Sans-Serif;
+    background-color: #2F4F4F;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-  }
-  .esquerda {
+}
+.esquerda {
     position: absolute;
     top: 20px;
     left: 50px;
     text-align: center;
-    background-color: #4682B4;
-    color: white;
+    background-color: #708090;
+    width: 35%;
+    color: #000000;
     padding: 10px;
     border-radius: 5px;
-  }
-  .direita {
+}
+.direita {
     position: absolute;
     top: 20px;
     right: 50px;
     text-align: center;
-    background-color: #4682B4;
-    color: white;
+    background-color: #708090;
+    width: 35%;
+    color: #000000;
     padding: 10px;
     border-radius: 5px;
-  }
+}
+h1 a {
+    margin: 0 40px;
+}
    .image-container {
     text-align: center;
-    margin-bottom: 20px;
-  }
-  .image-container img {
+    margin-bottom: 1px;
+}
+.image-container img {
+    border: 3px inset #696969;
     border-radius: 50%;
     aspect-ratio: 1/1;
     max-width: 100%;
-    height: auto;
-  }
-  .content {
+    width: 20rem;
+    height: 20rem;
+}
+.content {
     text-align: center;
     max-width: 800px;
-    padding: 0 20px;
-  }
+    padding: 0 10px;
+}
+footer {
+    background-color: #FFFFFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 22%;
+    width: 100%;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a {
+    margin: 0 20px;
+    text-decoration: none;
+    position: relative;
+    left: 1rem;
+}
+.social-icons img {
+    width: 35px;
+    height: 35px;
+}
