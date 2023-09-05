@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #778899;
+  font-family: Cursive, Arial, Sans-Serif;
+  background-color: #800000;
 }
 .container {
   max-width: 800px;
@@ -10,15 +10,19 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 10px;
 }
 .column {
   width: calc(35% - 20px);
   margin-bottom: 20px;
   width: 350px;
   padding: 20px;
-  border: 1px ridge #ddd;
-  background-color: #BDB76B;
+  border: 2px outset #778899;
+  background-color: #DEB887;
+}
+.column:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 .project-title {
   font-size: 24px;
