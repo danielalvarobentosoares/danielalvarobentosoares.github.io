@@ -20,10 +20,6 @@ body {
   border: 2px outset #778899;
   background-color: #DEB887;
 }
-.column:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
-}
 .project-title {
   font-size: 24px;
   margin-bottom: 10px;
