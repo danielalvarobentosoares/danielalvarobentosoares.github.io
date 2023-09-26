@@ -1,0 +1,217 @@
+/* Adicione seus estilos personalizados aqui */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Luckiest+Guy&family=Montserrat&family=Paytone+One&display=swap');
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    color: #ffffff;
+    font-family: 'Croissant One', cursive;
+    font-size: 3rem;
+    text-shadow: -0.3rem 0.25rem #000000;
+    background-image: url('https://pinkfire.com.br/wp-content/uploads/2022/06/Comidas-Japonesas.jpg');
+    background-position: 10% 45%;
+    height: 10rem;
+    position: relative;
+}
+
+header>div {
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    backdrop-filter: blur(3px);
+}
+
+nav {
+    background-color: #0f0f0f;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    z-index: 1;
+}
+
+nav ul {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+}
+
+nav>a {
+    color: #ffffff;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.2rem;
+    padding: 1.25rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+section {
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+section>div {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    backdrop-filter: blur(5px);
+}
+
+section>div>h2 {
+    color: #ffffff;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.text {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: 250px;
+    display: block;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+.legenda {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: aqua;
+    text-shadow: -0.3rem 0.25rem #000000;
+    padding: 20px;
+    font-family: 'Croissant One', cursive;
+    font-size: 20px;
+}
+
+.dropdown {
+    margin-left: 0;
+    margin-top: 20px;
+    position: absolute;
+    left: 43%;
+}
+
+.chef-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div>.chef-info>img {
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 24px;
+    color: gray;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Cor quando passar o mouse */
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.avaliacao {
+    background-color: rgb(197, 141, 88);
+    border: 2px ridge #000;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    margin-top: 20px;
+}
+
+.estrelas {
+    text-align: center;
+    font-size: 30px;
+}
+
+#introducao {
+    background-image: url('https://cdn.abrahao.com.br/base/597/dfd/f62/ideias-restaurante-japones.jpg');
+}
+
+#cardapio {
+    background-image: url('https://www.flaviapiresexplora.com.br/wp-content/uploads/2022/01/imagem_2022-01-24_233130-700x450.png');
+}
+
+#sobre-nos {
+    background-image: url('https://www.saboravida.com.br/wp-content/uploads/2021/12/restaurante-japones-conheca-os-20-melhores-de-sao-paulo-sp-1-1.webp');
+}
+
+#reservas {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOP_SmmF0diMvNt5JoyVHhd70tlAuAkOi1MGTsLHJJp80GOBAnDpdJmbrE19_jRLo7BzQ&usqp=CAU');
+}
+
+#galeria {
+    background-image: url('https://www.maiorviagem.net/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-12-at-18.59.10-1-1024x682.jpeg');
+}
+
+#fale-conosco {
+    background-image: url('https://revistamenu.com.br/wp-content/uploads/sites/24/2022/03/mizuki-1.jpg');
+}
+
+#pedidos-online {
+    background-image: url('https://cidadesaopaulo.spmais.com.br/wp-content/uploads/2022/11/Ohka.jpg');
+}
+
+#redes-sociais {
+    background-image: url('https://roteirogastronomicoextrema.com.br/wp-content/uploads/2021/02/ori-sushi-06.jpg');
+}
+
+#promocoes {
+    background-image: url('https://invexo.com.br/blog/wp-content/uploads/2020/06/Restaurante-Nori-Leblon.jpg');
+}
+
+#avaliacoes-online {
+    background-image: url('https://www.correiodointerior.com.br/wp-content/uploads/2022/07/tokyo-rose-scaled.webp');
+}
